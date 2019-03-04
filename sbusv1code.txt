@@ -1,0 +1,926 @@
+ data-toggle="collapse" data-parent="#accordion" data-target="#collapsecntrl"
+ 
+ 
+ <span class="pull-right clickable" style="margin-left: 254px!important;"><i class="glyphicon glyphicon-chevron-up "><!--  --></i></span>
+ 
+ http://localhost:8088/riteerp-web/student/18/assignment/view
+ 
+ 
+ #backtotop{
+     background: #ccc;
+    padding: 7px 10px;
+    border: 1px #4072ad solid;
+ }
+ 
+ 16G01A0212
+ 
+ 
+ <div class="panel-collapse collapse in" id="collapsecntrl">
+ 
+ {
+    	        dom: 'lBfrtip',
+					
+   	        buttons: [
+   	            {
+   	                extend: 'copyHtml5',
+   	                exportOptions: {
+   	                    columns: [ 0, ':visible' ]
+   	                }
+   	            },
+   	            {
+   	                extend: 'excelHtml5',
+   	                exportOptions: {
+   	                    columns: ':visible'
+   	                }
+   	            },
+   	            {
+   	                extend: 'pdfHtml5',
+   	                exportOptions: {
+   	                    columns: [ 0, 1, 2, 5 ]
+   	                }
+   	            },
+   	            'colvis'
+   	        ]
+   	    } );
+		
+16-11
+------
+employee managament
+close select2
+swathi modules
+
+"scrollX":        "100%",
+    		  "scrollY":        '50vh',
+    	        "scrollCollapse": true,
+    	
+        dom: 'lBfrtip',
+    	
+           buttons: [
+               {
+                   extend: 'copyHtml5',
+    			      title: 'All Student List',
+                   exportOptions: {
+                       columns: [ 0, ':visible' ]
+                   }
+               },
+               {
+                   extend: 'excelHtml5',
+    			      title: 'All Student List',
+                   exportOptions: {
+                       columns: ':visible'
+                   }
+               },
+               {
+                   extend: 'pdfHtml5',
+                   exportOptions: {
+                	   columns: [ 0, ':visible' ]
+                   }
+               },
+               'colvis'
+           ],	
+           
+
+
+
+		
+		http://jsfiddle.net/moinsam/o36w69ph/
+		
+		
+			var companyTable =	$('#studentIdCardsTable').DataTable({
+				"scrollX":        "100%",
+				  scrollY:        '50vh',
+					scrollCollapse: true,
+					paging:         false
+				
+			});
+		<div class="panel-heading"></div>
+		
+		btn btn-primary btn-sm           <div class="panel-heading"><h4>Selected Criteria</h4></div>
+		
+		
+		$('b[role="presentation"]').hide();
+$('.select2-selection__arrow').append('<i class="fa fa-caret-down"></i>');
+
+
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
+          $($.fn.dataTable.tables(true)).DataTable()
+             .columns.adjust(); 
+       });
+    researchHub = researchHubService.findByCollegeAndStartDateAndEndDate(currentCollege(), fromDate, toDate);
+
+	   target="_blank"
+	   
+	   
+	   9441115111
+	   
+	   <td class="text-center">${incr.index+1}</td>
+	   
+	   
+	   	<th class="sno">S.No</th>
+		(<i class="fa fa-inr" aria-hidden="true"><!--  --></i>)
+		
+		style="width:210px;min-width:210px;"
+		class="text-center"
+		
+		style="width:100%;"
+		
+		I completed the 'Help Desk Create Request' page design as per mock up. I completed the page design in one day
+
+		-->payroll dashbaord
+		
+		http://localhost:8080/riteerp-web/college/discussions/list
+
+existingPrcoReqList
+Submit
+	   
+	 $(".table ").css({"width":"100%"});
+	   
+http://localhost:8088/riteerp-web/college/rota/list
+
+http://localhost:8088/riteerp-web/college/user/roster/announcements/1/mapping-form
+
+http://localhost:8088/riteerp-web/college/employee/salary/management/department/grade/assignPayroll
+
+http://localhost:8088/riteerp-web/college/studentsAttendance/show
+
+
+453 Leave_Permission_Status
+
+       $('#procCategoryTableList').wrap('<div class='dataTables_scroll'/>');	
+
+$(document).ready(function(){
+			 
+		  /*   / var minimized_elements = $('p.minimize'); / */
+		$('p.minimize').each(function(){
+		  var t = $(this).text();
+		     if (t.length &lt; 123) return;
+
+		     $(this).html(
+		       t.slice(0, 123) + '<span>... </span><a href="#" class="more">More</a>' +
+		       '<span style="display:none;">' + t.slice(100, t.length) + ' <a href="#" class="less">Less</a></span>'
+		     );
+		});
+
+
+		    $('a.more').click(function(event) {
+		      event.preventDefault();
+		      $(this).hide().prev().hide();
+		      $(this).next().show();
+		    });
+
+		    $('a.less').click(function(event) {
+		      event.preventDefault();
+		      $(this).parent().hide().prev().show().prev().show();
+		    });
+
+		  });
+
+.affix {
+    width: 306px;
+}
+
+
+
+29
+---
+KOMU craete employee
+SWATHI
+HARSHITHA super admin
+MAHESH
+faculty DASHBOARD
+GAJANANA
+
+30
+--
+super admin menu
+skype
+gajanana
+faculty DASHBOARD
+SWATHI
+
+sainath
+menu
+faculty
+kommumurali
+
+
+http://192.168.1.54:8080/SBuS/college/researchHub/list
+
+http://183.82.117.232:8088/sbus-web/college/studentsByCourse/list
+    
+<script type="text/javascript">
+  $(document).ready(function(){ 
+   $('#menuAdminControl').addClass('active open');
+   $('#menuFinanceSettings').addClass('active open');
+   $('#menuFinanceSettings a').attr('style','text-align:left;');
+   $( "#menuFinanceSettings" ).accordion({
+       collapsible: true
+       });
+   $("#menuHrmsRecUpdate6").addClass('currentHighlight');
+  });
+</script> 
+
+
+ ${transport.routePickupPoints.routeDetails.routeName}
+
+   $('#procCategoryTableList').wrap('<div class="dataTables_scroll"/>');	
+Employee Type
+
+select * from Employee_exit_details;
+
+<p class="minimize">
+
+	<div class="modal fade" id="DescModal" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">x</button>
+					<h4 class="modal-title">Enquiry Reports List</h4>
+
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class=" col-md-6 col-sm-12 mar_t2">
+
+							<label class="control-label">Name</label>
+
+							<div class="">
+								<input type="text" class="form-control" maxlength="50"
+									id="modalone" name="name" />
+							</div>
+						</div>
+
+
+						<div class=" col-md-6 col-sm-12 mar_t2">
+							<label class="control-label">Enquiry Type </label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modaltwo" name="enquiry type" />
+							</div>
+						</div>
+
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label">Enquiry Category</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalthree" name="enquiry by" />
+							</div>
+						</div>
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label"> Mobile</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalfour" name="enquiry category" />
+							</div>
+						</div>
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label">Email</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalfive" name="country" />
+							</div>
+						</div>
+
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label"> Location</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalsix" name="state" />
+							</div>
+						</div>
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label">State</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalseven" name=" location" />
+							</div>
+						</div>
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label"> Country</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modaleight" name="email" />
+							</div>
+						</div>
+
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label">Status</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalnine" name="mobile" />
+							</div>
+						</div>
+
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label">Course</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalten" name="status" />
+							</div>
+						</div>
+
+						<div class=" col-md-6 mar_t2 col-sm-12">
+							<label class="control-label">Date</label>
+							<div class="">
+								<input type="text" class="form-control" maxlength="30"
+									id="modalelevn" name="date" />
+							</div>
+						</div>
+						
+						
+					time sheet	
+					
+					
+					
+					
+					
+					
+					<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<div class="row">
+		<section>
+        <div class="wizard">
+            <div class="wizard-inner">
+                <div class="connecting-line"></div>
+                <ul class="nav nav-tabs" role="tablist">
+
+                    <li role="presentation" class="active">
+                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-folder-open"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li role="presentation" class="disabled">
+                        <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-pencil"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="disabled">
+                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-picture"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li role="presentation" class="disabled">
+                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-ok"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <form role="form">
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="step1">
+                        <h3>Step 1</h3>
+                        <p>This is step 1</p>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step2">
+                        <h3>Step 2</h3>
+                        <p>This is step 2</p>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                            <li><button type="button" class="btn btn-primary next-step">Save and continue</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step3">
+                        <h3>Step 3</h3>
+                        <p>This is step 3</p>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                            <li><button type="button" class="btn btn-default next-step">Skip</button></li>
+                            <li><button type="button" class="btn btn-primary btn-info-full next-step">Save and continue</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="complete">
+                        <h3>Complete</h3>
+                        <p>You have successfully completed all steps.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+    </section>
+   </div>
+</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+
+					</div>
+				</div>
+
+				<div class="modal-footer">
+					<!--  -->
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+
+	
+		#jeDocs {
+	max-height: 139px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+
+#jeDocs {
+	display: table-row;
+	clear: both;
+}
+#jeDocs .dcApndCell {
+    display: table-cell;
+    padding: 2px;
+    border: 1px solid #ccd0d6;
+}
+#jeDocs .dcApndCell input {
+	border: none !important;
+}
+	
+	
+
+ 2018-1-1
+ 
+ <performance>
+ 
+ create parameters factors page
+ update paramenters page
+ evaluation time periods
+ create update page
+
+From Date: 01-01-2017 To Date: 05-01-2018
+
+http://183.82.117.232:83/issue/RITEERP-28
+	
+	
+	dom : 'lBfrtip',
+	            "scrollX":        "100%",
+	            "paging": false,
+	   			 columnDefs: [
+	   				 {
+	   					 targets: 1,
+	   					 className: 'noVis'
+	   				 }
+	   			 ],
+	   			 buttons: [
+	   				 {
+	   					 extend: 'colvis',
+	   					 columns: ':not(.noVis)'
+	   				 }
+	   			 ]
+
+				 
+				 
+				 
+				 
+
+
+<div class="row">
+      <div data-spy="scroll" class="tabbable-panel">
+        <div class="tabbable-line">
+       <div class="col-sm-12">
+        <div class="nav_tabs">
+      
+        <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="${pageContext.request.contextPath}/college/bookAuthor/list">
+            Create Author</a>
+            </li>
+        <li >
+              <a href="${pageContext.request.contextPath}/college/bookCategory/list">
+           Create Category</a>
+            </li>
+              <li>
+              <a href="${pageContext.request.contextPath}/college/bookPublisher/list" >
+           Create Publisher</a>
+            </li>
+           
+            <li>
+              <a href="${pageContext.request.contextPath}/college/bookLocation/list" >
+          Create Book Location</a>
+            </li>
+          </ul>
+          </div>
+          <div class="panel panel-default">
+		  <div class="panel-body">
+          <div class="tab-contenter tab-content">
+            <div class="tab-pane active" id="tab_default_1">				 
+				 
+		http://localhost:8081/ritebooks-web/college/e-campus/user/blog/118/view	 
+				 
+				 
+	{
+		
+		"scrollX":        "100%",
+		  scrollY:        '50vh',
+	        scrollCollapse: true,
+	
+    dom: 'lBfrtip',
+	
+       buttons: [
+           {
+               extend: 'copyHtml5',
+			      title: 'Students Clear Dues Report List',
+               exportOptions: {
+                   columns: [ 0, ':visible' ]
+               }
+           },
+           {
+               extend: 'excelHtml5',
+			      title: 'Students Clear Dues Report List',
+               exportOptions: {
+                   columns: ':visible'
+               }
+           },
+           {
+               extend: 'pdfHtml5',
+               exportOptions: {
+                   columns: [ 0, 1, 2, 5 ]
+               }
+           },
+           'colvis'
+       ],	
+       
+       fixedColumns:   {
+           leftColumns: 1
+       }
+
+		}			 
+				 
+				 
+				 
+modal pupups  --fasakk
+roll number admission number				 
+dashboards	with menu
+account dashbaords
+newcollegeemployee.jspx
+unitest	 		
+reports in college 
+tabcontent height --fasakk
+dropdowm close
+reports
+
+dashboard academic year
+shahsank new
+bugs
+student
+all dashboards
+student status report
+dashbaord
+student login patent filling
+sainath tabs
+campus recrment report 
+create program name gap
+team claims sprove reject same column
+
+
+
+25-10
+--
+super admin 1276
+college 
+vc dashboard
+
+einvoice harshita
+help
+vaishnavi  
+create employee
+fee reports roll number
+employee list
+vc login leave
+
+
+super admin new murali
+harshini skype
+kommu new pages
+einvoices
+research hub mahesh
+leaves in dashboards
+
+27
+--
+kommu new
+mahesh
+harshitha skype
+admin dashboard
+header
+viashnavi skype
+
+function js
+vcindex
+super  admin lo menu helight
+
+
+http://localhost:7689/ritebooks-web/college/employee/createForm
+https://github.com/select2/select2/issues/861
+
+
+				 
+applicatio
+fee mangmnt
+fee reports
+people prosses
+hrms reports
+pauroll and it	 
+
+http://localhost:7689/ritebooks-web/student/toDoList/show
+http://localhost:7689/ritebooks-web/student/fee/duesList
+http://localhost:7689/ritebooks-web/student/notifications/list
+http://localhost:7689/ritebooks-web/student/profile/changePassword
+modules 
+
+http://183.82.117.232:8088/sbus-web/college/studentsByCourse/list
+
+
+
+31
+---
+student list
+dash board link
+application and admissions 
+class status
+sainath
+animation
+http://localhost:7689/ritebooks-web/student/patent/list
+
+
+collegeDetainedStudentsReports.jspx
+						<c:choose>
+						<c:when test="${true eq checkSchool}">
+							<th>Admission No</th>
+						
+						</c:when>
+						<c:otherwise>
+							<th>Roll Number</th>
+						
+						</c:otherwise>
+						</c:choose>			 
+				 
+							<c:choose>
+			                  <c:when test = '${checkSchool eq true}'>
+			                    <th>Admission Number</th>
+			                  </c:when>
+			                  <c:otherwise>
+			                    <th>Roll Number</th>
+			                   </c:otherwise>
+			                  </c:choose>				 
+				 
+				 
+http://localhost:7689/ritebooks-web/college/guest/lecture/faculty/wise/count					 
+				 
+				 
+(project: {RITE ERP}) and ((Stage: Backlog ,Develop ,ReOpened ) and (Assigned Backend: {No assigned employee}))				 
+				 
+	2408			 done
+	2390			 done
+	2455			 done	
+	http://localhost:7689/ritebooks-web/college/employee/createForm	
+	
+	
+	
+	
+	
+	
+	
+01-11.
+----
+supper dashboard test
+search enquiry
+nationla and international
+	
+	05-11-2018
+	----------
+	mahesh 
+	dashboard
+	menu
+	http://192.168.1.54:8080/SBuS/college/accreditation/agency/create
+	
+	<c:if test="${not empty errorMessage}">
+	<script type="text/javascript">
+	<c:set var="mssg" value="${errorMessage}"/> 
+				var msg = '<c:out value="${mssg}"/>';
+				swal("",msg);		
+				</script>
+		
+	</c:if>	
+	
+	8 -worke on admin control panel alerts
+	9 -worke on E-invoice login
+	10-Add stories for creating issues in sbus.Discussion boards in SBUS
+	11-Responsiveness for sbus product upto mobile mode.	
+
+
+	
+12-11
+-----
+remaing modules
+skype send by harshitha
+vaishnavi
+table	
+menu helight
+	mounika.i@mactecit.com
+	
+	
+	bg_grey
+	
+15-11
+-----
+http://localhost:8081/ritebooks-web/college/e-campus/user/blog/65/view	
+blogs
+sainath pages
+college super admin menu helights
+skype
+
+
+
+	
+	
+	
+swal(
+  'Good job!',
+  'You clicked the button!',
+  'success'
+)	
+
+college/researchHub/wise/count
+06-011
+-----
+vaishnavi skype
+sweet alerts
+fee amount on panel-heading
+rupee sybmol
+	
+	<div class="panel panel-default">
+	<div class="panel-heading"><h4></h4></div>
+	<div class="panel-body">
+	
+		<div class="row">
+		<div data-spy="scroll" class="tabbable-panel">
+			<div class="tabbable-line">
+				<div class="col-sm-12">
+					<div class="nav_tabs">
+
+
+						<ul class="nav nav-tabs">
+							<li><a
+								href="${pageContext.request.contextPath}/college/library/books/list">
+									 Book List</a></li>
+							<li class="active"><a
+								href="${pageContext.request.contextPath}/college/library/bookIssued/list">
+									Issued Book List</a></li>
+						</ul>
+		
+
+
+
+	var companyTable =$('#collegeAllStudentsList').DataTable({
+    		
+				"scrollX":        "100%",
+				  scrollY:        '50vh',
+					scrollCollapse: true,
+			
+			dom: 'lBfrtip',
+			
+			   buttons: [
+				   {
+					   extend: 'copyHtml5',
+						  title: 'sbus',
+					   exportOptions: {
+						   columns: [ 0, ':visible' ]
+					   }
+				   },
+				   {
+					   extend: 'excelHtml5',
+						  title: 'svpcet',
+					   exportOptions: {
+						   columns: ':visible'
+					   }
+				   },
+				   {
+					   extend: 'pdfHtml5',
+					    title: 'svpcet',
+					   exportOptions: {
+					columns: ':visible'
+					   }
+				   },
+				   'colvis'
+			   ],	
+          });
+		  
+
+		  
+		  <fmt:formatDate pattern="dd-MM-yyyy" value="${fromDate}" />
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  .cc-btn-warning {
+   color: #fff;
+    background-color: #337033;
+    border-color: #24B924;
+}
+
+relievestudent.jspx
+
+[TEMP18EEE01004, TEMP18CSE01003, TEMP18ECE01003, TEMP18CSE01006, 8769, 0008, 8880] Roll Numbers or Employee Id&#039;s are already mapped to Selected Bus.
+
+http://localhost:8081/ritebooks-web/college/library/books/list
+
+19-11
+------
+tabs
+mail replay
+https://mail.google.com/mail/u/0/?ui=2&view=btop&ver=34lyuizfsevc&q=harshitha%40mactecit.com&qs=true&search=query&th=%23thread-f%3A1617550047683374795&qt=harshitha%40mactecit.com.1&cvid=2
+header fix
+
+
+
+
+20-11
+-----
+mail replay
+hrms reports
+rajesh moduels
+https://mail.google.com/mail/u/0/#inbox/FMfcgxvzLhjbwrHnbPLJwlwjWzwSmbzh
+
+
+
+
+21-11
+-----
+password page
+blogs page
+class scheduling
+mail replay
+check dashboards
+menu change password
+
+https://mail.google.com/mail/u/0/#search/harshitha%40mactecit.com/FMfcgxvzLhcqxznhrPMBbhhbZhtCMsWQ
+
+
+
+28-11-2018
+-----------
+
+<div class="row">
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active">Home</li>
+    <li class="breadcrumb-item active">Application &amp; Admission</li>
+    <li class="breadcrumb-item active" aria-current="page">College Profile Create</li>
+  </ol>
+</nav>
+</div>	
+
+
+
+sunday
+
+mou word-spacing
+enquery 
+transport
+clamim
+svpcet
+
+
+
+
+
+
+
+
+
+		
